@@ -1,9 +1,11 @@
-const acceptedAnswer = document.querySelector(".accepted-answer");
-const header = document.getElementsByTagName("header")[0];
+(function () {
+	const acceptedAnswer = document.querySelector(".accepted-answer");
+	const header = document.getElementsByTagName("header")[0];
 
-if (acceptedAnswer) {
-	header.style.backgroundColor = "#d8f3dc";
-	acceptedAnswer.scrollIntoView({ behavior: "smooth" });
-} else {
+	if (acceptedAnswer) {
+		header.style.backgroundColor = "#d8f3dc";
+		acceptedAnswer.scrollIntoView({ behavior: "smooth" });
+	} else {
 		header.style.backgroundColor = "#fdf7e2";
-}
+	}
+})();
