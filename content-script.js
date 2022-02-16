@@ -5,5 +5,5 @@ if (acceptedAnswer) {
 	header.style.backgroundColor = "#d8f3dc";
 	acceptedAnswer.scrollIntoView({ behavior: "smooth" });
 } else {
-	header.style.backgroundColor = "#fbf8cc";
+		header.style.backgroundColor = "#fdf7e2";
 }
