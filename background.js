@@ -1,5 +1,5 @@
 const executeScript = (tab) => {
-	if (tab.url.includes("stackoverflow")) {
+	if (tab.url.includes("stackoverflow.com/questions/")) {
 		chrome.scripting.executeScript({
 			target: { tabId: tab.id },
 			files: ["content-script.js"],
