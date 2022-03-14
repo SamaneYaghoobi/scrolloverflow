@@ -1,6 +1,8 @@
 {
 	"name": "scrolloverflow",
-	"description": "Scroll to Accepted Answer in StackOverFlow!",
+	"short_name": "scrolloverflow",
+	"description": "Automatically scroll to Accepted Answer in StackOverFlow!",
+	"author": "samaneyaghoobi1996@gmail.com",
 	"version": "0.0.1",
 	"manifest_version": 3,
 	"background": {
